@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP Barrinha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cidade">Nossa Cidade</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="img">
+                <img src="imagens/img1.jpg" alt="Vista aérea de Barrinha, São Paulo, com destaque para a praça central">
+                <small class="image-source">Fonte: <a href="https://www.abagrp.org.br/barrinha" target="_blank" rel="noopener">ABA</a></small>
+            </div>
+            <div class="text">
+                <h1>CEP Barrinha-SP</h1>
+                <h2>Encontre o CEP do seu endereço</h2>
+                <p>Digite o nome do bairro ou rua, como "Centro" ou "Avenida Presidente Castelo Branco".</p>
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Bairro ou rua" aria-label="Digite o bairro ou rua para buscar o CEP" required>
+                    <button type="submit">Buscar</button>
+                </form>
+                <div id="search-results" aria-live="polite"></div>
+            </div>
+        </section>
+        <section id="cidade">
+            <h2>Nossa Cidade</h2>
+            <p>
+                Barrinha, no coração do interior paulista, é um município acolhedor próximo a Ribeirão Preto. Com cerca de 33.181 habitantes (2024) e 146 km², destaca-se pela qualidade de vida e forte senso comunitário.
+            </p>
+            <p>
+                Fundada em 1948, Barrinha tem raízes na agricultura, com destaque para a cana-de-açúcar. Hoje, diversifica sua economia com comércio e serviços, impulsionada pela proximidade com polos como Sertãozinho. O IDHM de 0,725 (2010) reflete avanços em educação, com 97,5% das crianças de 6 a 14 anos escolarizadas.
+            </p>
+            <p>
+                Banhada pelo Rio Mogi Guaçu, a cidade oferece belas paisagens e atividades ao ar livre. A administração municipal, sediada na Praça Antônio Brado, investe em saúde, educação e cultura, promovendo eventos que celebram a identidade local. A transparência é reforçada pelo Portal da Transparência e pela Câmara Municipal.
+            </p>
+            <p>
+                Barrinha combina simplicidade e progresso, sendo ideal para morar, visitar ou investir. Venha conhecer o charme do interior paulista!<br>
+                <small>Fonte: IBGE, Prefeitura de Barrinha, Câmara Municipal</small>
+            </p>
+        </section>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>
+                Somos uma iniciativa sem fins lucrativos que facilita o acesso aos CEPs de Barrinha, SP. Nosso objetivo é promover a inclusão digital, tornando informações essenciais acessíveis a todos, independentemente de barreiras tecnológicas ou socioeconômicas.
+            </p>
+            <p>
+                Buscamos integrar a comunidade de Barrinha ao mundo digital, incentivando a acessibilidade e a democratização da informação com simplicidade e igualdade.
+            </p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Fale conosco: <a href="mailto:contatocepbarrinha@gmail.com">contatocepbarrinha@gmail.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 CEP Barrinha. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
