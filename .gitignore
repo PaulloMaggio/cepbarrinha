@@ -1,0 +1,8 @@
+# Arquivo de variáveis de ambiente
+.env
+
+# Dependências do Node.js
+node_modules/
+
+# Arquivos de log (opcional, caso você tenha logs)
+*.log
